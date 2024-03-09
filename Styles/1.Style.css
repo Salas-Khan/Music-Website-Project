@@ -1,0 +1,327 @@
+
+/* resets & common codes starts here */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+:root{
+      --primary-color: #fff;
+      --secondry-color: #000;
+}
+
+
+hr{
+      opacity: 0.5;
+}
+
+
+.headings{
+      background-color: blueviolet;
+      padding: 6px;
+      color: var(--primary-color);
+      font-size: 1.2rem;
+      font-weight: 400;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+}
+
+
+.common-flex{
+      display: flex;
+      flex-direction: column;
+}
+
+
+
+.common-flex a{
+      text-decoration: none;
+      border-bottom: 0.5px solid rgb(213, 210, 210);
+      padding: 10px;
+      font-weight: 700;
+      transition: all 0.1s;
+}
+
+
+.common-flex a:hover{
+      background-color: rgb(247, 242, 235);
+      color: red;
+}
+
+
+/* resets & common codes ends here */
+
+
+
+
+
+/* header starts */
+
+.header{
+        width: 100%;
+        text-align: center;
+}
+
+
+
+.name{
+      background-color: black;
+      width: 100%;
+      padding: 10px;
+      margin: 0 auto;
+      font-family: 'Oswald', sans-serif;
+}
+
+
+.name1{
+       color: red;
+}
+
+
+.name2{
+      color: var(--primary-color);
+}
+
+
+.name3{
+       color: green;
+}
+
+
+.name-desc{
+      color: var(--primary-color);
+      font-size: 0.8rem;
+      padding: 7px 0;
+}
+
+
+.alert{
+      background-color: antiquewhite;
+      width: 100%;
+      padding: 7px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-transform: capitalize;
+}
+
+
+.search-box{
+    padding: 14px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.search-box #search{
+            width: 150px;
+            padding: 5px;
+            border-radius: 15px;
+            border: 0.5px solid;
+}
+
+
+.search-box .search-btn{
+        padding: 3.3px 15px;
+        font-weight: bold;
+        margin-left: 5px;
+        text-transform: capitalize;
+}
+
+
+
+marquee{
+      font-size: 1rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 400;
+      text-transform: capitalize;
+      padding: 7px;
+      color: rgb(162, 70, 9);
+      background-color: rgba(215, 213, 218, 0.449);
+      padding: 5px;
+}
+
+
+
+marquee span{
+      color: rgb(12, 15, 209);
+}
+
+
+/* header ends */
+
+
+
+
+
+
+/* featured starts */
+
+.featured-container{
+      padding: 12px 0;
+}
+
+
+.f-items{
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border-bottom: 0.5px solid rgb(213, 210, 210);
+}
+
+
+
+.f-items img{
+       width: 80px;
+}
+
+
+
+.f-items a{
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 12px;
+        transition: all 0.2s;
+}
+
+
+.f-items:hover{
+          padding-left: 14px; 
+}
+
+
+.f-items .singers{
+        font-weight: 100;
+        font-size: 0.9rem;
+        padding: 3px 0;
+        
+}
+
+
+.more-songs a{
+      text-decoration: none;
+      color: blue;
+      padding: 5px;
+      font-weight: 100;
+      transition: all 0.3s;
+}
+
+
+.more-songs a:hover{
+       color: red;
+}
+
+/* featured ends */
+
+
+
+
+
+
+
+/* latest updates starts */
+
+.latest-container p{
+       font-weight: 550;
+       padding: 7px;
+       border-bottom: 0.5px solid rgb(213, 210, 210);
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 12px;
+}
+
+
+
+.more-updates a{
+     text-decoration: none;
+     font-weight: 100;
+     padding: 5px;
+     transition: all 0.3s;
+}
+
+
+.more-updates a:hover{
+       color: red;
+}
+
+/* latest updates ends */
+ 
+
+
+
+
+
+
+
+
+/* top download starts */
+.top-downloads{
+      text-align: center;
+}
+
+
+.top-downloads p{
+        margin-bottom: 10px;
+} 
+
+
+.top-downloads a{
+       text-decoration: none;
+       padding: 0px 5px;
+       font-weight: 600;
+       transition: all 0.3s;
+}
+
+
+
+.top-downloads a:hover{
+       color: red;
+}
+
+/* top download ends */
+
+
+
+
+
+/* footer starts here */
+
+.footer{
+      background-color: var(--secondry-color);
+      padding: 5px;
+      text-align: center;
+}
+
+
+.footer h6{
+       color: var(--primary-color);
+       font-size: 15px;
+       margin-top: 15px;
+}
+
+
+.footer sup{
+       color: var(--primary-color);
+       font-size: 7px;
+}
+
+
+.footer a{
+       color: var(--primary-color);
+       font-size: 16px;
+       text-decoration: none;
+}
+
+
+.footer span{
+       color: #fff;
+}
+
+
+.footer .icon{
+     padding: 17px 5px;
+     color: #fff;
+     font-size: 1.2rem;
+}
+
+/* footer ends here */
